@@ -688,6 +688,10 @@ h1:hover .highlight::after {
 }
 
 @media (max-width: 480px) {
+    .about-content {
+    flex-direction: column-reverse;
+    gap: 10px;
+  }
   .skills-grid {
     grid-template-columns: 1fr;
   }
@@ -704,7 +708,7 @@ h1:hover .highlight::after {
 /* experience start */
 .experience-section {
   padding: 100px 20px;
-  background-color: #1a1a2e;
+  background-color: #000000;
   color: white;
   position: relative;
 }
@@ -790,7 +794,7 @@ h1:hover .highlight::after {
 
 /* Experience Content */
 .timeline-content {
-  background: rgba(255, 255, 255, 0.05);
+  background: #1a1a2e;
   border-radius: 10px;
   padding: 30px;
   border: 1px solid rgba(255, 255, 255, 0.1);
@@ -998,6 +1002,10 @@ h1:hover .highlight::after {
   .timeline-content {
     padding: 20px;
   }
+}
+
+.job-responsibilities ul li{
+    list-style: none;
 }
 
 /* experience end */
