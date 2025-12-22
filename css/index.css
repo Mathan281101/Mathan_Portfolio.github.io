@@ -748,7 +748,7 @@ h1:hover .highlight::after {
 /* Timeline Styles */
 .timeline {
   position: relative;
-  padding-left: 50px;
+  padding-left: 20px;
 }
 
 .timeline::before {
@@ -764,7 +764,7 @@ h1:hover .highlight::after {
 .timeline-item {
   position: relative;
   margin-bottom: 50px;
-  padding-left: 30px;
+  padding-left: 70px;
 }
 
 .timeline-marker {
@@ -788,9 +788,6 @@ h1:hover .highlight::after {
   font-size: 1rem;
 }
 
-.timeline-icon.current {
-  background: #2ecc71;
-}
 
 /* Experience Content */
 .timeline-content {
