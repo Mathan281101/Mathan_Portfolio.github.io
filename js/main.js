@@ -72,7 +72,8 @@ navLinks.forEach(link => {
       const filterValue = button.getAttribute('data-filter');
       
       projects.forEach(project => {
-        if (filterValue === 'all' || project.getAttribute('data-category') === filterValue) {
+        const categories = project.getAttribute('data-category').split(' ');
+        if (filterValue === 'all' || categories.includes(filterValue)) {
           project.style.display = 'flex';
         } else {
           project.style.display = 'none';
